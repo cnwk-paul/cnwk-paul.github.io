@@ -1,0 +1,1418 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>禁止的愛 - 善良的小姨子線上看 | 官方企业影音门户</title>
+<meta name="description" content="禁止的愛 善良的小姨子線上看 官方网站，以原创正版高清影音内容为核心，打造温暖真实的观影社区与创作者内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1e2b'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23e6b980' stroke-width='3'/%3E%3Cpath d='M27 24l16 8-16 8z' fill='%23e6b980'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bf-navy:#1b1e2b;
+  --bf-navy-2:#262a3d;
+  --bf-ink:#22242f;
+  --bf-muted:#6d7284;
+  --bf-line:#e5e3db;
+  --bf-cream:#faf8f3;
+  --bf-white:#ffffff;
+  --bf-gold:#c9a165;
+  --bf-gold-soft:#e6b980;
+  --bf-sage:#7d9082;
+  --bf-shadow:0 18px 40px -22px rgba(27,30,43,.4);
+  --bf-radius:16px;
+  --bf-max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,sans-serif;
+  background:var(--bf-cream);
+  color:var(--bf-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+ul{list-style:none}
+.bf-wrap{max-width:var(--bf-max);margin:0 auto;padding:0 24px}
+.bf-anchor{scroll-margin-top:118px}
+.bf-sticky{position:sticky;top:0;z-index:120}
+
+/* 公告条 */
+.bf-notice{
+  background:linear-gradient(90deg,var(--bf-navy) 0%,var(--bf-navy-2) 100%);
+  color:#f2ede1;font-size:13.5px;letter-spacing:.02em;
+}
+.bf-notice .bf-wrap{
+  display:flex;align-items:center;gap:14px;min-height:40px;padding-top:6px;padding-bottom:6px;flex-wrap:wrap;
+}
+.bf-notice-tag{
+  flex:0 0 auto;background:var(--bf-gold);color:#20180c;font-weight:700;
+  font-size:11.5px;letter-spacing:.12em;padding:2px 9px;border-radius:4px;
+}
+.bf-notice-txt{flex:1 1 260px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bf-notice-link{color:var(--bf-gold-soft);font-weight:600;font-size:13px;white-space:nowrap}
+.bf-notice-link:hover{text-decoration:underline}
+
+/* 页头 */
+.bf-header{background:rgba(250,248,243,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--bf-line)}
+.bf-header .bf-wrap{display:flex;align-items:center;gap:26px;min-height:66px}
+.bf-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.bf-brand-mark{width:34px;height:34px;flex:0 0 auto}
+.bf-brand-name{font-weight:800;font-size:17px;letter-spacing:.01em;line-height:1.2}
+.bf-brand-name small{display:block;font-size:10.5px;font-weight:500;color:var(--bf-muted);letter-spacing:.16em}
+.bf-nav{display:flex;gap:22px;margin-left:auto;font-size:14.5px;font-weight:500}
+.bf-nav a{padding:4px 0;border-bottom:2px solid transparent;color:#3a3d4b;transition:.2s}
+.bf-nav a:hover{color:var(--bf-navy);border-bottom-color:var(--bf-gold)}
+.bf-head-tools{display:flex;align-items:center;gap:10px}
+.bf-search{
+  display:flex;align-items:center;gap:6px;background:var(--bf-white);
+  border:1px solid var(--bf-line);border-radius:999px;padding:5px 6px 5px 14px;
+}
+.bf-search input{
+  border:none;outline:none;background:transparent;font-size:13.5px;width:132px;color:var(--bf-ink);
+}
+.bf-search input::placeholder{color:#a4a7b3}
+.bf-search button{
+  background:var(--bf-navy);color:#fff;border-radius:999px;font-size:12.5px;padding:5px 12px;
+}
+.bf-search button:hover{background:var(--bf-navy-2)}
+.bf-search-feedback{
+  font-size:12px;color:var(--bf-sage);min-height:0;margin-top:-2px;padding-left:4px;display:none;
+}
+.bf-search-feedback.bf-on{display:block}
+.bf-burger{
+  display:none;width:40px;height:40px;border:1px solid var(--bf-line);border-radius:10px;
+  background:var(--bf-white);align-items:center;justify-content:center;
+}
+.bf-burger span{display:block;width:18px;height:2px;background:var(--bf-navy);position:relative}
+.bf-burger span::before,.bf-burger span::after{
+  content:"";position:absolute;left:0;width:18px;height:2px;background:var(--bf-navy);
+}
+.bf-burger span::before{top:-6px}
+.bf-burger span::after{top:6px}
+.bf-mobile-nav{display:none;border-top:1px solid var(--bf-line);background:var(--bf-white)}
+.bf-mobile-nav.bf-open{display:block}
+.bf-mobile-nav a{display:block;padding:12px 24px;border-bottom:1px solid #f1efe8;font-size:14.5px}
+
+/* 首屏：左文右侧大图 */
+.bf-hero{padding:56px 0 64px;background:
+  radial-gradient(1100px 460px at 88% -10%, rgba(201,161,101,.16), transparent 62%),
+  linear-gradient(180deg,#faf8f3 0%, #f4f1e8 100%);
+}
+.bf-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:52px;align-items:center}
+.bf-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;letter-spacing:.14em;
+  color:#8a6a33;background:#f3e8d2;border:1px solid #e8d9ba;padding:5px 14px;border-radius:999px;
+}
+.bf-hero h1{
+  font-size:clamp(34px,4.6vw,56px);line-height:1.14;letter-spacing:.01em;font-weight:900;
+  margin:20px 0 18px;color:var(--bf-navy);
+}
+.bf-hero h1 em{font-style:normal;color:#a97f3f;position:relative}
+.bf-hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:4px;height:10px;background:rgba(201,161,101,.24);z-index:-1;
+}
+.bf-hero-lead{font-size:16.5px;color:#43465a;max-width:52ch}
+.bf-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 8px}
+.bf-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 24px;
+  font-size:14.5px;font-weight:700;transition:transform .18s ease, box-shadow .18s ease, background .18s;
+}
+.bf-btn:hover{transform:translateY(-2px)}
+.bf-btn-primary{background:var(--bf-navy);color:#fff;box-shadow:0 14px 26px -14px rgba(27,30,43,.7)}
+.bf-btn-primary:hover{background:var(--bf-navy-2)}
+.bf-btn-ghost{background:var(--bf-white);color:var(--bf-navy);border:1px solid var(--bf-line)}
+.bf-btn-ghost:hover{border-color:var(--bf-gold);box-shadow:0 10px 20px -14px rgba(27,30,43,.4)}
+.bf-btn-gold{background:linear-gradient(135deg,#dcb779,#c9a165);color:#241a0b}
+.bf-hero-stats{display:flex;gap:34px;margin-top:30px;flex-wrap:wrap}
+.bf-hero-stats li{min-width:104px}
+.bf-hero-stats b{display:block;font-size:26px;font-weight:900;color:var(--bf-navy);letter-spacing:.01em}
+.bf-hero-stats span{font-size:12.5px;color:var(--bf-muted);letter-spacing:.05em}
+
+.bf-hero-visual{position:relative}
+.bf-hero-poster{
+  border-radius:22px;overflow:hidden;box-shadow:var(--bf-shadow);border:8px solid #fff;background:#fff;
+}
+.bf-hero-poster svg{width:100%;height:auto;display:block}
+.bf-hero-badge{
+  position:absolute;left:-14px;bottom:24px;background:var(--bf-navy);color:#f4efe3;
+  border-radius:14px;padding:14px 18px;box-shadow:0 18px 30px -18px rgba(27,30,43,.8);max-width:250px;
+}
+.bf-hero-badge b{display:block;font-size:14px;color:var(--bf-gold-soft);letter-spacing:.06em;margin-bottom:4px}
+.bf-hero-badge p{font-size:12.5px;line-height:1.6;color:#cfcabb}
+.bf-hero-tab{
+  position:absolute;right:-8px;top:22px;background:#fff;border-radius:12px;padding:9px 14px;font-size:12.5px;
+  font-weight:700;color:var(--bf-navy);box-shadow:0 12px 24px -14px rgba(27,30,43,.5);display:flex;gap:7px;align-items:center;
+}
+.bf-hero-tab i{width:8px;height:8px;border-radius:50%;background:#8bb38f;display:block}
+
+/* 通用 section */
+.bf-section{padding:64px 0}
+.bf-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:32px;flex-wrap:wrap}
+.bf-kicker{font-size:12px;font-weight:800;letter-spacing:.2em;color:#a97f3f;margin-bottom:8px}
+.bf-section h2{font-size:clamp(24px,3vw,34px);line-height:1.24;font-weight:900;color:var(--bf-navy);letter-spacing:.01em}
+.bf-section h2 span{color:#a97f3f}
+.bf-section-desc{font-size:14.5px;color:var(--bf-muted);max-width:56ch}
+.bf-alt{background:var(--bf-white)}
+
+/* 焦点内容 */
+.bf-focus-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:32px}
+.bf-focus-main{
+  background:#fff;border-radius:var(--bf-radius);overflow:hidden;border:1px solid var(--bf-line);
+  box-shadow:var(--bf-shadow);display:flex;flex-direction:column;
+}
+.bf-focus-main figure{margin:0;position:relative;aspect-ratio:16/9;overflow:hidden;background:#e9e5da}
+.bf-focus-main figure svg{width:100%;height:100%;object-fit:cover}
+.bf-play{
+  position:absolute;right:16px;bottom:16px;background:rgba(27,30,43,.86);color:#fff;font-size:12.5px;
+  font-weight:700;padding:7px 14px;border-radius:999px;display:flex;gap:6px;align-items:center;backdrop-filter:blur(4px);
+}
+.bf-focus-body{padding:24px 26px 26px}
+.bf-focus-body h3{font-size:21px;line-height:1.4;margin-bottom:10px;color:var(--bf-navy)}
+.bf-focus-body p{font-size:14px;color:#525566}
+.bf-meta{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;font-size:12.5px;color:var(--bf-muted);margin-top:14px}
+.bf-chip{background:#f3f0e7;color:#7a6335;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:600}
+.bf-chip-sage{background:#eaf0ea;color:#4c6b52}
+.bf-chip-navy{background:#e7e8ef;color:#3c4059}
+.bf-side-list{display:flex;flex-direction:column;gap:14px}
+.bf-side-item{
+  background:#fff;border:1px solid var(--bf-line);border-radius:14px;padding:16px 18px;
+  display:flex;gap:14px;transition:.2s;box-shadow:0 8px 18px -18px rgba(27,30,43,.5);
+}
+.bf-side-item:hover{transform:translateX(4px);border-color:#d8c7a4}
+.bf-side-no{font-size:20px;font-weight:900;color:#d9c9a6;flex:0 0 auto;line-height:1.3;font-style:italic}
+.bf-side-item h4{font-size:15px;line-height:1.5;margin-bottom:5px;color:var(--bf-navy)}
+.bf-side-item p{font-size:12.5px;color:var(--bf-muted);line-height:1.6}
+.bf-side-item .bf-meta{margin-top:6px;font-size:11.5px}
+
+/* 视频列表 */
+.bf-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.bf-video-card{
+  background:#fff;border:1px solid var(--bf-line);border-radius:var(--bf-radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;
+}
+.bf-video-card:hover{transform:translateY(-5px);box-shadow:var(--bf-shadow)}
+.bf-video-card figure{margin:0;aspect-ratio:16/9;overflow:hidden;background:#eae7de;position:relative}
+.bf-video-card figure svg{width:100%;height:100%}
+.bf-video-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.bf-video-body h3{font-size:16px;line-height:1.5;color:var(--bf-navy)}
+.bf-video-body p{font-size:13px;color:#5c5f70;line-height:1.65}
+.bf-video-body .bf-meta{margin-top:auto}
+.bf-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.bf-act{
+  border:1px solid var(--bf-line);border-radius:999px;padding:5px 12px;font-size:12.5px;color:#4c4f60;
+  display:inline-flex;align-items:center;gap:5px;background:#fbfaf6;transition:.15s;
+}
+.bf-act:hover{border-color:var(--bf-gold);color:#8a6a33}
+.bf-act.bf-liked{background:#fbeef0;border-color:#e7bcc6;color:#b04664}
+.bf-act.bf-saved{background:#eaf0ea;border-color:#b9cfbe;color:#3f6b4a}
+
+/* 视频文字列表 */
+.bf-vlist{display:flex;flex-direction:column;border-top:1px solid var(--bf-line)}
+.bf-vrow{
+  display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:18px;align-items:start;
+  padding:18px 6px;border-bottom:1px solid var(--bf-line);
+}
+.bf-vrow:hover{background:#fbf9f3}
+.bf-vrow-rank{font-size:15px;font-weight:900;color:#c9a165;letter-spacing:.02em;padding-top:2px}
+.bf-vrow h4{font-size:16px;color:var(--bf-navy);margin-bottom:4px;line-height:1.45}
+.bf-vrow p{font-size:13px;color:#5f6274}
+.bf-vrow-side{font-size:12.5px;color:var(--bf-muted);text-align:right;white-space:nowrap}
+
+/* 关键词解析 */
+.bf-parse{background:linear-gradient(180deg,#f4f1e8,#faf8f3)}
+.bf-parse-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,320px);gap:44px;align-items:start}
+.bf-parse h3{font-size:19px;color:var(--bf-navy);margin:26px 0 10px;padding-left:14px;position:relative}
+.bf-parse h3::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:2px;background:linear-gradient(180deg,#c9a165,#7d9082)}
+.bf-parse h3:first-of-type{margin-top:0}
+.bf-parse p{font-size:14.5px;color:#4a4d5e;margin-bottom:12px;text-align:justify}
+.bf-parse-aside{
+  background:#fff;border:1px solid var(--bf-line);border-radius:18px;padding:24px;position:sticky;top:128px;
+  box-shadow:var(--bf-shadow);
+}
+.bf-parse-aside h4{font-size:15px;color:var(--bf-navy);margin-bottom:14px}
+.bf-parse-aside dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 12px;font-size:13px}
+.bf-parse-aside dt{color:var(--bf-muted)}
+.bf-parse-aside dd{font-weight:700;color:#3a3d4b;text-align:right}
+.bf-parse-aside .bf-note{font-size:12.5px;color:var(--bf-muted);margin-top:16px;padding-top:14px;border-top:1px dashed var(--bf-line)}
+
+/* 专题 */
+.bf-special-grid{display:grid;grid-template-columns:minmax(0,1fr) repeat(2,minmax(0,1fr));gap:22px}
+.bf-special{
+  background:#fff;border:1px solid var(--bf-line);border-radius:var(--bf-radius);padding:22px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.bf-special.bf-special-lead{grid-row:span 2;background:var(--bf-navy);color:#e9e4d8;border:none}
+.bf-special-lead h3{color:#fff}
+.bf-special-lead p{color:#c3bfb3}
+.bf-special-lead .bf-special-item{border-top-color:rgba(255,255,255,.14)}
+.bf-special-lead .bf-special-item strong{color:#f1e7d2}
+.bf-special-lead .bf-special-item span{color:#a9a595}
+.bf-special h3{font-size:17px;color:var(--bf-navy);line-height:1.45}
+.bf-special p{font-size:13px;color:#5c5f70}
+.bf-status{font-size:11.5px;font-weight:700;letter-spacing:.08em;color:#4c6b52;background:#eaf0ea;border-radius:999px;padding:3px 10px;width:fit-content}
+.bf-special-lead .bf-status{background:rgba(201,161,101,.2);color:#e6b980}
+.bf-special-item{border-top:1px solid var(--bf-line);padding-top:9px;display:flex;flex-direction:column;gap:2px}
+.bf-special-item strong{font-size:13.5px;color:#33364a;font-weight:700}
+.bf-special-item span{font-size:12px;color:var(--bf-muted)}
+
+/* 作者矩阵：双列简介 */
+.bf-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.bf-author{
+  background:#fff;border:1px solid var(--bf-line);border-radius:var(--bf-radius);padding:22px;
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;align-items:start;transition:.2s;
+}
+.bf-author:hover{box-shadow:var(--bf-shadow);border-color:#dccfae}
+.bf-avatar{
+  width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:22px;font-weight:900;color:#fff;letter-spacing:0;
+}
+.bf-author h3{font-size:16.5px;color:var(--bf-navy);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.bf-author .bf-role{font-size:12px;color:#8a6a33;background:#f4ead7;border-radius:999px;padding:2px 9px;font-weight:600}
+.bf-author p{font-size:13px;color:#55586a;margin-top:8px}
+.bf-author .bf-stats{display:flex;gap:16px;font-size:12px;color:var(--bf-muted);margin-top:10px;flex-wrap:wrap}
+.bf-author .bf-stats b{color:#33364a}
+
+/* 榜单 + 评论 */
+.bf-board-grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:32px;align-items:start}
+.bf-board{background:var(--bf-navy);border-radius:20px;padding:26px;color:#e8e3d6}
+.bf-board h3{font-size:18px;color:#fff;margin-bottom:4px}
+.bf-board .bf-sub{font-size:12.5px;color:#a8a495;margin-bottom:18px}
+.bf-board ol{counter-reset:bfb;display:flex;flex-direction:column;gap:14px}
+.bf-board li{counter-increment:bfb;display:grid;grid-template-columns:26px minmax(0,1fr);gap:10px;align-items:baseline}
+.bf-board li::before{
+  content:counter(bfb);font-size:13px;font-weight:900;color:var(--bf-gold-soft);font-style:italic;
+}
+.bf-board li b{font-size:14px;font-weight:700;color:#f3eee1;line-height:1.5}
+.bf-board li span{display:block;font-size:12px;color:#a8a495;margin-top:2px}
+.bf-comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.bf-comment{
+  background:#fff;border:1px solid var(--bf-line);border-radius:14px;padding:16px 18px;display:flex;gap:12px;align-items:flex-start;
+}
+.bf-comment .bf-avatar{width:40px;height:40px;font-size:15px}
+.bf-comment h4{font-size:13.5px;color:var(--bf-navy);margin-bottom:4px}
+.bf-comment p{font-size:13px;color:#55586a;line-height:1.65}
+.bf-comment time{font-size:11.5px;color:#a4a7b3;display:block;margin-top:6px}
+.bf-stars{color:#d9a93f;font-size:12px;letter-spacing:.1em}
+
+/* 动态 + 合作 + FAQ */
+.bf-info-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px;align-items:start}
+.bf-timeline{position:relative;padding-left:22px}
+.bf-timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,#c9a165,#7d9082)}
+.bf-tl-item{position:relative;padding-bottom:22px}
+.bf-tl-item:last-child{padding-bottom:0}
+.bf-tl-item::before{
+  content:"";position:absolute;left:-22px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:2px solid var(--bf-gold);
+}
+.bf-tl-item time{font-size:12px;color:#a97f3f;font-weight:700;letter-spacing:.04em}
+.bf-tl-item h4{font-size:15px;color:var(--bf-navy);margin:4px 0 5px}
+.bf-tl-item p{font-size:13px;color:#5c5f70}
+
+.bf-partners{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.bf-partner{
+  border:1px dashed #d8d3c4;border-radius:12px;padding:18px 12px;text-align:center;background:#fbfaf6;
+  font-size:13.5px;font-weight:700;color:#4e5163;transition:.2s;
+}
+.bf-partner:hover{border-color:var(--bf-gold);color:#8a6a33;background:#fff}
+.bf-partner small{display:block;font-size:11.5px;font-weight:500;color:var(--bf-muted);margin-top:3px}
+
+.bf-faq{margin-top:34px}
+.bf-faq details{
+  background:#fff;border:1px solid var(--bf-line);border-radius:12px;margin-bottom:10px;overflow:hidden;
+}
+.bf-faq summary{
+  cursor:pointer;padding:15px 20px;font-size:14.5px;font-weight:700;color:var(--bf-navy);
+  list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;
+}
+.bf-faq summary::-webkit-details-marker{display:none}
+.bf-faq summary::after{content:"+";font-size:18px;color:#a97f3f;font-weight:400;flex:0 0 auto}
+.bf-faq details[open] summary::after{content:"−"}
+.bf-faq details p{padding:0 20px 17px;font-size:13.5px;color:#55586a;line-height:1.75}
+
+/* 投稿条 */
+.bf-submit{
+  background:linear-gradient(120deg,#262a3d,#1b1e2b);border-radius:24px;padding:44px;
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;color:#e9e4d8;
+}
+.bf-submit h2{color:#fff;font-size:clamp(22px,2.6vw,30px);line-height:1.3;margin-bottom:10px}
+.bf-submit p{font-size:14px;color:#bdb9ab;max-width:52ch}
+
+/* 页脚 */
+.bf-footer{background:#15171f;color:#b3b0a5;padding:56px 0 26px;margin-top:0}
+.bf-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:36px}
+.bf-footer h4{font-size:14px;color:#f0ebdd;margin-bottom:14px;letter-spacing:.04em}
+.bf-footer li{font-size:13px;line-height:2.1}
+.bf-footer a:hover{color:var(--bf-gold-soft)}
+.bf-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.bf-footer-brand .bf-brand-name{color:#f0ebdd}
+.bf-footer-brand .bf-brand-name small{color:#8d8a80}
+.bf-footer p{font-size:12.5px;line-height:1.9;color:#8d8a80}
+.bf-footer-bottom{
+  margin-top:38px;padding-top:20px;border-top:1px solid #2a2c37;display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;font-size:12px;color:#7d7a71;
+}
+.bf-footer-bottom a{color:#a8a495}
+
+/* 弹窗 & Toast */
+.bf-modal-mask{
+  position:fixed;inset:0;background:rgba(22,24,32,.62);z-index:300;display:none;align-items:center;justify-content:center;padding:20px;
+}
+.bf-modal-mask.bf-open{display:flex}
+.bf-modal{
+  background:#fff;border-radius:18px;max-width:460px;width:100%;padding:26px;box-shadow:0 40px 80px -30px rgba(0,0,0,.5);
+}
+.bf-modal h3{font-size:18px;color:var(--bf-navy);margin-bottom:8px}
+.bf-modal p{font-size:13.5px;color:#55586a;line-height:1.7;margin-bottom:16px}
+.bf-modal .bf-field{margin-bottom:14px}
+.bf-modal label{display:block;font-size:12.5px;font-weight:700;color:#4a4d5e;margin-bottom:5px}
+.bf-modal input,.bf-modal textarea{
+  width:100%;border:1px solid var(--bf-line);border-radius:10px;padding:10px 12px;font-size:13.5px;
+  font-family:inherit;outline:none;background:#fbfaf6;color:var(--bf-ink);
+}
+.bf-modal input:focus,.bf-modal textarea:focus{border-color:var(--bf-gold);background:#fff}
+.bf-modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+.bf-close-x{position:absolute;right:20px;top:16px;font-size:20px;color:#a4a7b3;padding:4px 8px;border-radius:8px}
+.bf-close-x:hover{background:#f3f0e7;color:var(--bf-navy)}
+.bf-modal .bf-modal-inner{position:relative}
+.bf-toast{
+  position:fixed;left:50%;bottom:40px;transform:translate(-50%,20px);background:var(--bf-navy);color:#f3eee1;
+  padding:11px 22px;border-radius:999px;font-size:13.5px;font-weight:600;z-index:400;opacity:0;
+  pointer-events:none;transition:.25s;box-shadow:0 20px 34px -18px rgba(0,0,0,.6);
+}
+.bf-toast.bf-show{opacity:1;transform:translate(-50%,0)}
+.bf-top{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;background:var(--bf-navy);
+  color:#fff;display:none;align-items:center;justify-content:center;z-index:200;box-shadow:0 16px 30px -16px rgba(27,30,43,.8);
+}
+.bf-top.bf-show{display:flex}
+.bf-top:hover{background:var(--bf-navy-2)}
+
+/* 响应式 */
+@media (max-width:1024px){
+  .bf-nav{display:none}
+  .bf-burger{display:flex}
+  .bf-hero-grid{grid-template-columns:1fr;gap:38px}
+  .bf-hero-badge{left:auto;right:12px;bottom:-14px}
+  .bf-focus-grid,.bf-parse-grid,.bf-board-grid,.bf-info-grid,.bf-submit{grid-template-columns:1fr}
+  .bf-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .bf-special-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .bf-special.bf-special-lead{grid-column:span 2;grid-row:auto}
+  .bf-parse-aside{position:static}
+  .bf-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:720px){
+  .bf-wrap{padding:0 18px}
+  .bf-search input{width:96px}
+  .bf-brand-name{font-size:15.5px}
+  .bf-hero{padding:38px 0 48px}
+  .bf-section{padding:48px 0}
+  .bf-video-grid,.bf-special-grid,.bf-comments,.bf-author-grid,.bf-partners{grid-template-columns:1fr}
+  .bf-special.bf-special-lead{grid-column:auto}
+  .bf-author{grid-template-columns:52px minmax(0,1fr)}
+  .bf-author .bf-avatar{width:52px;height:52px;font-size:18px}
+  .bf-submit{padding:28px}
+  .bf-footer-grid{grid-template-columns:1fr}
+  .bf-vrow{grid-template-columns:40px minmax(0,1fr);gap:12px}
+  .bf-vrow-side{grid-column:2;text-align:left}
+  .bf-hero-badge{position:static;margin-top:16px;max-width:none}
+  .bf-hero-tab{display:none}
+  .bf-top{right:14px;bottom:16px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 + 页头（吸顶） -->
+<div class="bf-sticky">
+  <div class="bf-notice">
+    <div class="bf-wrap">
+      <span class="bf-notice-tag">官方发布</span>
+      <span class="bf-notice-txt">《善良的小姨子線上看》第 12 期导演剪辑版已上线，新增 6 段人物访谈与拍摄手记；本月「真实映像」征集同步开启报名。</span>
+      <a class="bf-notice-link bf-anchor" href="#bf-updates">查看更新详情</a>
+    </div>
+  </div>
+  <header class="bf-header">
+    <div class="bf-wrap">
+      <a class="bf-brand" href="#bf-top">
+        <svg class="bf-brand-mark" viewBox="0 0 64 64" aria-label="禁止的愛 官方品牌标识">
+          <rect width="64" height="64" rx="14" fill="#1b1e2b"/>
+          <circle cx="32" cy="32" r="16" fill="none" stroke="#e6b980" stroke-width="3"/>
+          <path d="M27 24l16 8-16 8z" fill="#e6b980"/>
+        </svg>
+        <span class="bf-brand-name">禁止的愛<small>OFFICIAL VIDEO</small></span>
+      </a>
+      <nav class="bf-nav" aria-label="主导航">
+        <a class="bf-anchor" href="#bf-focus">焦点内容</a>
+        <a class="bf-anchor" href="#bf-videos">影像专区</a>
+        <a class="bf-anchor" href="#bf-specials">专题企划</a>
+        <a class="bf-anchor" href="#bf-authors">创作者</a>
+        <a class="bf-anchor" href="#bf-parse">品牌解析</a>
+        <a class="bf-anchor" href="#bf-faq">帮助</a>
+      </nav>
+      <div class="bf-head-tools">
+        <div class="bf-search">
+          <input id="bfSearchInput" type="search" placeholder="搜索作品 / 创作者" aria-label="站内搜索">
+          <button id="bfSearchBtn" type="button">搜索</button>
+        </div>
+        <button class="bf-burger" id="bfBurger" type="button" aria-label="展开导航菜单" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+    <div class="bf-mobile-nav" id="bfMobileNav">
+      <a class="bf-anchor" href="#bf-focus">焦点内容</a>
+      <a class="bf-anchor" href="#bf-videos">影像专区</a>
+      <a class="bf-anchor" href="#bf-specials">专题企划</a>
+      <a class="bf-anchor" href="#bf-authors">创作者</a>
+      <a class="bf-anchor" href="#bf-parse">品牌解析</a>
+      <a class="bf-anchor" href="#bf-updates">企业动态</a>
+      <a class="bf-anchor" href="#bf-faq">帮助</a>
+    </div>
+  </header>
+</div>
+
+<main id="bf-top">
+
+  <!-- 首屏 -->
+  <section class="bf-hero" aria-labelledby="bf-hero-title">
+    <div class="bf-wrap bf-hero-grid">
+      <div class="bf-hero-copy">
+        <span class="bf-hero-eyebrow">官方网站 · 企业级影音门户</span>
+        <h1 id="bf-hero-title">禁止的愛 <em>善良的小姨子線上看</em></h1>
+        <p class="bf-hero-lead">作为深耕情感叙事与家庭题材的原创影像品牌，我们把真实关系中的克制、体谅与温柔，做成可以被反复观看的高清作品。这里是「禁止的愛」官方网站，也是「善良的小姨子線上看」系列的官方发布与社区入口。</p>
+        <div class="bf-hero-actions">
+          <a class="bf-btn bf-btn-primary bf-anchor" href="#bf-videos">进入影像专区</a>
+          <a class="bf-btn bf-btn-ghost" href="#bf-submit-zone" id="bfHeroSubmit">投稿与共创</a>
+          <button class="bf-btn bf-btn-gold" type="button" id="bfHeroShare">分享本页</button>
+        </div>
+        <ul class="bf-hero-stats">
+          <li><b data-bf-count="1260">1260</b><span>原创高清作品</span></li>
+          <li><b data-bf-count="38">38</b><span>签约创作者</span></li>
+          <li><b data-bf-count="240">240</b><span>万社区用户</span></li>
+        </ul>
+      </div>
+      <div class="bf-hero-visual">
+        <div class="bf-hero-poster">
+          <svg viewBox="0 0 640 420" role="img" aria-label="禁止的愛官方主视觉：老宅窗前双人对坐的安静影像构图">
+            <defs>
+              <linearGradient id="bfSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2b2f45"/>
+                <stop offset="100%" stop-color="#4a4438"/>
+              </linearGradient>
+              <linearGradient id="bfLight" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#f2d9a8"/>
+                <stop offset="100%" stop-color="#c9a165" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="420" fill="url(#bfSky)"/>
+            <rect x="60" y="52" width="240" height="180" rx="6" fill="#1a1d28" stroke="#6d6350" stroke-width="2"/>
+            <rect x="72" y="64" width="216" height="156" fill="url(#bfLight)" opacity=".55"/>
+            <rect x="340" y="70" width="228" height="150" rx="4" fill="#232636" stroke="#5b5445" stroke-width="2"/>
+            <path d="M454 70v150M340 145h228" stroke="#5b5445" stroke-width="2"/>
+            <rect y="300" width="640" height="120" fill="#191b24"/>
+            <circle cx="190" cy="286" r="26" fill="#3b3d47"/>
+            <path d="M150 380c0-30 18-52 40-52s40 22 40 52z" fill="#3b3d47"/>
+            <circle cx="420" cy="270" r="30" fill="#4a4438"/>
+            <path d="M374 380c0-34 21-60 46-60s46 26 46 60z" fill="#4a4438"/>
+            <rect x="252" y="252" width="120" height="14" rx="7" fill="#6d6350" opacity=".7"/>
+            <rect x="270" y="266" width="10" height="46" fill="#6d6350" opacity=".7"/>
+            <rect x="344" y="266" width="10" height="46" fill="#6d6350" opacity=".7"/>
+            <circle cx="560" cy="96" r="4" fill="#e6b980" opacity=".9"/>
+            <circle cx="600" cy="130" r="2.6" fill="#e6b980" opacity=".7"/>
+            <circle cx="96" cy="120" r="3" fill="#e6b980" opacity=".6"/>
+          </svg>
+        </div>
+        <div class="bf-hero-tab"><i></i>官方正版 · 每周三更新</div>
+        <div class="bf-hero-badge">
+          <b>品牌定位</b>
+          <p>专注家庭与情感题材的原创视频品牌，用克制的影像讲述值得被理解的人。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="bf-section bf-anchor" id="bf-focus">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">FEATURED · 焦点</p>
+          <h2>本周焦点：<span>善良的小姨子線上看</span> 系列新章</h2>
+        </div>
+        <p class="bf-section-desc">官方精选 1 部重点长片与 4 部衍生短片，围绕「克制的情感表达」展开，全部为高清正版内容，可在安静时段完整观看。</p>
+      </div>
+      <div class="bf-focus-grid">
+        <article class="bf-focus-main">
+          <figure>
+            <svg viewBox="0 0 760 428" role="img" aria-label="善良的小姨子線上看第十二期封面：黄昏厨房里递出的一碗热汤">
+              <defs>
+                <linearGradient id="bfKitchen" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#3f3a33"/>
+                  <stop offset="100%" stop-color="#211f24"/>
+                </linearGradient>
+                <radialGradient id="bfWarm" cx="50%" cy="45%" r="60%">
+                  <stop offset="0%" stop-color="#f6d9a4" stop-opacity=".9"/>
+                  <stop offset="100%" stop-color="#f6d9a4" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect width="760" height="428" fill="url(#bfKitchen)"/>
+              <rect width="760" height="428" fill="url(#bfWarm)"/>
+              <rect x="0" y="330" width="760" height="98" fill="#16151a"/>
+              <rect x="110" y="120" width="200" height="150" rx="8" fill="#1b1a20" stroke="#6a5f4c" stroke-width="2"/>
+              <rect x="128" y="138" width="164" height="114" fill="#2c2a2e"/>
+              <path d="M470 300c0-52 32-88 66-88s66 36 66 88z" fill="#4a4238"/>
+              <circle cx="536" cy="188" r="30" fill="#5c5142"/>
+              <path d="M300 300c0-34 20-58 42-58s42 24 42 58z" fill="#3a3630"/>
+              <circle cx="342" cy="222" r="21" fill="#4a4238"/>
+              <ellipse cx="420" cy="316" rx="54" ry="12" fill="#c9a165" opacity=".28"/>
+              <path d="M400 292c8-18 32-18 40 0-8 14-32 14-40 0z" fill="#e6b980"/>
+              <rect x="418" y="288" width="4" height="26" fill="#e6b980" opacity=".6"/>
+              <circle cx="640" cy="96" r="40" fill="#e6b980" opacity=".1"/>
+            </svg>
+            <span class="bf-play">▶ 播放正片 · 46 分钟</span>
+          </figure>
+          <div class="bf-focus-body">
+            <h3>善良的小姨子線上看 · 第十二期《一碗汤的距离》</h3>
+            <p>一场关于边界的家庭对话。姐夫住院的第三周，小姨子每日送汤，却在某天把汤放在门口就离开。影片用大量空镜与厨房的蒸汽，讲述「善良」如何被误解，又如何被重新理解。导演组保留了三段未剪辑的对谈，让情绪在沉默里落地。</p>
+            <div class="bf-meta">
+              <span class="bf-chip">原创正版</span>
+              <span class="bf-chip bf-chip-sage">高清 4K</span>
+              <span class="bf-chip bf-chip-navy">家庭叙事</span>
+              <span>导演：程叙白</span>
+              <span>播放 82.4 万</span>
+            </div>
+            <div class="bf-actions">
+              <button class="bf-act bf-like" type="button" data-bf-count="3120">♡ 喜欢 <span>3120</span></button>
+              <button class="bf-act bf-save" type="button">♧ 收藏</button>
+              <button class="bf-act bf-share" type="button">↗ 分享</button>
+              <button class="bf-act bf-report" type="button">! 反馈</button>
+            </div>
+          </div>
+        </article>
+        <div class="bf-side-list">
+          <article class="bf-side-item">
+            <span class="bf-side-no">01</span>
+            <div>
+              <h4>厨房里的三分钟：被删掉的第七场戏</h4>
+              <p>摄影指导讲解如何用自然光完成一次情绪转折，附分镜对照。</p>
+              <div class="bf-meta"><span class="bf-chip">创作幕后</span><span>播放 24.1 万</span></div>
+            </div>
+          </article>
+          <article class="bf-side-item">
+            <span class="bf-side-no">02</span>
+            <div>
+              <h4>演员访谈：如何演好一个「不被理解的好人」</h4>
+              <p>两位主演对谈 40 分钟，聊表演中的克制与身体记忆。</p>
+              <div class="bf-meta"><span class="bf-chip bf-chip-sage">人物访谈</span><span>播放 19.7 万</span></div>
+            </div>
+          </article>
+          <article class="bf-side-item">
+            <span class="bf-side-no">03</span>
+            <div>
+              <h4>读者来信：我也曾把关心放错了位置</h4>
+              <p>社区用户投稿的真实故事，被改编为系列番外短片。</p>
+              <div class="bf-meta"><span class="bf-chip bf-chip-navy">情感故事</span><span>播放 15.3 万</span></div>
+            </div>
+          </article>
+          <article class="bf-side-item">
+            <span class="bf-side-no">04</span>
+            <div>
+              <h4>取景地手记：一栋建于 1987 年的老楼</h4>
+              <p>美术组如何用旧家具还原年代感，成本公开与采购清单。</p>
+              <div class="bf-meta"><span class="bf-chip">实用技巧</span><span>播放 11.8 万</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像专区：三列卡片 -->
+  <section class="bf-section bf-alt bf-anchor" id="bf-videos">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">VIDEOS · 影像专区</p>
+          <h2>禁止的愛 <span>精品内容</span> 持续更新</h2>
+        </div>
+        <p class="bf-section-desc">以下作品均为官方发布的正版高清内容，支持多端观看。每部作品都标注了创作者、播放与互动数据，方便你判断是否值得花一整个晚上。</p>
+      </div>
+      <div class="bf-video-grid">
+        <article class="bf-video-card">
+          <figure>
+            <svg viewBox="0 0 480 270" role="img" aria-label="短片封面：雨夜公交站台撑伞等待的两个人">
+              <rect width="480" height="270" fill="#20242f"/>
+              <rect y="200" width="480" height="70" fill="#141720"/>
+              <path d="M0 200h480" stroke="#4a5063" stroke-width="2"/>
+              <rect x="28" y="70" width="120" height="130" fill="#2c3140"/>
+              <rect x="44" y="88" width="88" height="94" fill="#3c4356"/>
+              <path d="M330 200c0-40 24-68 50-68s50 28 50 68z" fill="#39404f"/>
+              <circle cx="380" cy="118" r="22" fill="#4a5164"/>
+              <path d="M240 70l60 30-60 30z" fill="#c9a165" opacity=".5"/>
+              <path d="M170 120c26-30 78-30 104 0" stroke="#e6b980" stroke-width="3" fill="none"/>
+              <path d="M170 120v52M274 120v52" stroke="#6a7185" stroke-width="3"/>
+              <circle cx="210" cy="188" r="12" fill="#3c4356"/>
+              <circle cx="250" cy="192" r="9" fill="#3c4356"/>
+            </svg>
+            <span class="bf-play">▶ 23:40</span>
+          </figure>
+          <div class="bf-video-body">
+            <h3>雨夜站台：一句没能说出口的抱歉</h3>
+            <p>禁止的愛 系列短篇，讲述一次迟到十年的道歉，全片只有一个场景。</p>
+            <div class="bf-meta"><span class="bf-chip">情感故事</span><span>作者：程叙白</span></div>
+            <div class="bf-meta"><span>播放 31.2 万</span><span>♡ 1.8 万</span><span>收藏 6.4 千</span></div>
+            <div class="bf-actions">
+              <button class="bf-act bf-like" type="button" data-bf-count="1842">♡ 喜欢 <span>1842</span></button>
+              <button class="bf-act bf-save" type="button">♧ 收藏</button>
+              <button class="bf-act bf-share" type="button">↗ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="bf-video-card">
+          <figure>
+            <svg viewBox="0 0 480 270" role="img" aria-label="短片封面：清晨阳台晾晒的白色床单与被风吹起的衣角">
+              <rect width="480" height="270" fill="#e9e7de"/>
+              <rect y="0" width="480" height="120" fill="#cfd6da"/>
+              <circle cx="392" cy="62" r="34" fill="#f2d9a8"/>
+              <path d="M60 0v270M120 0v150" stroke="#a9aeb0" stroke-width="3"/>
+              <path d="M50 46h280l-16 96H66z" fill="#fbfaf6"/>
+              <path d="M70 156h240l-8 40H78z" fill="#f4f1e8"/>
+              <path d="M330 120c22 6 30 26 24 46" stroke="#8e9aa0" stroke-width="3" fill="none"/>
+              <rect x="0" y="238" width="480" height="32" fill="#c7c3b6"/>
+              <circle cx="200" cy="216" r="16" fill="#b8b3a5"/>
+            </svg>
+            <span class="bf-play">▶ 18:12</span>
+          </figure>
+          <div class="bf-video-body">
+            <h3>阳台上的白床单：一个家的十个清晨</h3>
+            <p>用十天记录一个普通家庭的早晨，慢节奏治愈影像，适合周末重看。</p>
+            <div class="bf-meta"><span class="bf-chip bf-chip-sage">日常记录</span><span>作者：林知夏</span></div>
+            <div class="bf-meta"><span>播放 27.6 万</span><span>♡ 2.1 万</span><span>收藏 8.9 千</span></div>
+            <div class="bf-actions">
+              <button class="bf-act bf-like" type="button" data-bf-count="2140">♡ 喜欢 <span>2140</span></button>
+              <button class="bf-act bf-save" type="button">♧ 收藏</button>
+              <button class="bf-act bf-share" type="button">↗ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="bf-video-card">
+          <figure>
+            <svg viewBox="0 0 480 270" role="img" aria-label="短片封面：老式台灯照亮桌面上的剧本与红笔批注">
+              <rect width="480" height="270" fill="#2a2b32"/>
+              <rect x="0" y="196" width="480" height="74" fill="#3a3327"/>
+              <ellipse cx="240" cy="200" rx="150" ry="34" fill="#e6b980" opacity=".18"/>
+              <path d="M220 96l40 0 22 92-84 0z" fill="#463d2d"/>
+              <rect x="232" y="52" width="16" height="46" fill="#5c5142"/>
+              <rect x="150" y="150" width="180" height="52" rx="3" fill="#f5f1e5" transform="rotate(-4 240 176)"/>
+              <path d="M170 168h120M170 182h94" stroke="#a8a294" stroke-width="2" transform="rotate(-4 240 176)"/>
+              <path d="M300 158l30 12" stroke="#c2564b" stroke-width="4"/>
+              <circle cx="86" cy="80" r="5" fill="#e6b980" opacity=".5"/>
+              <circle cx="410" cy="110" r="3" fill="#e6b980" opacity=".4"/>
+            </svg>
+            <span class="bf-play">▶ 32:05</span>
+          </figure>
+          <div class="bf-video-body">
+            <h3>编剧室实录：一场争吵戏改了 17 遍</h3>
+            <p>从初稿到定稿，完整展示禁止的愛 团队如何打磨对白节奏与留白。</p>
+            <div class="bf-meta"><span class="bf-chip">创作幕后</span><span>作者：许知远舟</span></div>
+            <div class="bf-meta"><span>播放 18.4 万</span><span>♡ 9.7 千</span><span>收藏 5.2 千</span></div>
+            <div class="bf-actions">
+              <button class="bf-act bf-like" type="button" data-bf-count="968">♡ 喜欢 <span>968</span></button>
+              <button class="bf-act bf-save" type="button">♧ 收藏</button>
+              <button class="bf-act bf-share" type="button">↗ 分享</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="bf-vlist" style="margin-top:30px">
+        <div class="bf-vrow">
+          <span class="bf-vrow-rank">05</span>
+          <div>
+            <h4>小姨子的手写信：番外篇《不必回答》</h4>
+            <p>以信件旁白串联的全新短篇，补完正片中未被交代的三年。</p>
+          </div>
+          <div class="bf-vrow-side">播放 14.9 万<br>2026-11-18</div>
+        </div>
+        <div class="bf-vrow">
+          <span class="bf-vrow-rank">06</span>
+          <div>
+            <h4>取景与光：家庭题材的低成本摄影方案</h4>
+            <p>摄影指导分享 6 个可复用的布光技巧，附设备清单与实拍对比。</p>
+          </div>
+          <div class="bf-vrow-side">播放 12.3 万<br>2026-11-15</div>
+        </div>
+        <div class="bf-vrow">
+          <span class="bf-vrow-rank">07</span>
+          <div>
+            <h4>社区共创：观众投票选出的结局</h4>
+            <p>超过 4.2 万人参与投票，得票最高的温柔结局已拍摄完成。</p>
+          </div>
+          <div class="bf-vrow-side">播放 10.6 万<br>2026-11-11</div>
+        </div>
+        <div class="bf-vrow">
+          <span class="bf-vrow-rank">08</span>
+          <div>
+            <h4>演员围读会：台词背后的家庭伦理讨论</h4>
+            <p>一场 70 分钟的圆桌，聊边界、体谅与「不打扰的善良」。</p>
+          </div>
+          <div class="bf-vrow-side">播放 9.2 万<br>2026-11-08</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词解析 -->
+  <section class="bf-section bf-parse bf-anchor" id="bf-parse">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">BRAND INSIGHT · 深度解析</p>
+          <h2>为什么「禁止的愛」与 <span>善良的小姨子線上看</span> 值得被认真讲述</h2>
+        </div>
+        <p class="bf-section-desc">这一部分由品牌内容中心撰写，约 900 字，解释我们的选材标准、影像方法与社区价值观，也说明「線上看」体验背后的产品思考。</p>
+      </div>
+      <div class="bf-parse-grid">
+        <div class="bf-parse-main">
+          <h3>一、关键词背后的题材判断：家庭关系是长期命题</h3>
+          <p>「禁止的愛」并不是一个猎奇的标题，而是一个关于边界的提问：当情感与身份发生冲突时，人会如何选择。我们把「善良的小姨子線上看」作为系列入口，是因为这个组合天然携带了三个层次的信息——身份（小姨子）、品质（善良）与观看方式（線上看）。这三者在现实中经常被误读：身份容易被标签化，善良容易被当成软弱，而線上看常被误解为粗糙的搬运内容。作为官方网站，我们想做的第一件事，就是把这些误读一一拆开。</p>
+          <p>在过去两年里，内容中心整理了 3400 余份社区投稿，其中 61% 与家庭关系有关，涉及照顾、赡养、手足、姻亲等具体情境。我们发现，观众真正想看的不是戏剧化的冲突，而是冲突之后如何收拾残局：谁先低头、谁把话说轻、谁在厨房多站了十分钟。这些细节构成了「善良的小姨子線上看」系列的叙事骨架，也决定了我们的拍摄方法——少用配乐煽情，多用环境声与停顿，把判断权交回给观众。</p>
+          <h3>二、影像方法：用克制换取真实，用细节换取信任</h3>
+          <p>在制作流程上，每一集都要经过「三轮围读 + 两轮试拍 + 一次观众盲测」。围读阶段，编剧、导演与演员会逐句确认台词的动机，凡是无法回答「这句话为什么现在说」的对白，一律删除。试拍阶段，摄影组坚持使用真实住宅与自然光，避免过度布景；如果一场戏必须靠台词解释关系，我们就认为它还没有拍好。盲测阶段，我们会邀请 30 位不同年龄段的社区用户观看粗剪，记录他们在哪些时刻走神、哪些时刻暂停回看，再据此调整剪辑节奏。</p>
+          <p>这种流程并不高效，但它让「善良的小姨子線上看」系列拥有了可辨认的质感：画面偏暖但不腻，人物有缺点但不下沉，结局很少给出答案，却总留下一个可以继续生活的动作。我们相信，品质不是宣传语，而是观众在第三次重看时仍能发现的新细节；口碑也不是刷出来的，而是有人愿意把链接发给自己的家人。</p>
+          <h3>三、平台与社区：讓「線上看」成为一次被尊重的观看</h3>
+          <p>作为持续运营的垂直内容平台，我们在播放体验上做了几件不太显眼但重要的事：全站正版高清，默认关闭自动连播，片尾保留完整字幕与创作名单；在关键情节前不加贴片广告，而是把品牌合作放在片头之前的独立卡片里，观众可以选择跳过。我们还为「禁止的愛」系列建立了独立的时间线页面，把正片、番外、访谈与拍摄手记按时间顺序排列，方便新观众从任意一集进入，也方便老观众回看伏笔。</p>
+          <p>社区层面，我们坚持「用户至上」但不迎合情绪。评论区默认按时间排序，热度排序需要手动切换；对涉及家庭隐私的投稿，编辑会先与作者沟通再决定是否公开；每季度我们会举办一次「真实映像」征集，鼓励创作者拍摄自己身边的关系故事，入选作品会获得制作支持与官方推荐。这些机制让「善良的小姨子線上看」不只是一个片名，而是一个可以持续生长的内容生态：有人拍，有人看，有人愿意认真讨论。</p>
+          <h3>四、品牌承诺：原创、正版、可持续</h3>
+          <p>我们清楚，家庭题材最容易被消费，也最容易被误解。因此「禁止的愛」官方网站对所有内容做三项承诺：第一，所有上线作品均为原创或已获正式授权，标注清晰的主创信息；第二，涉及真实人物与家庭的内容，一律取得书面同意，并保留撤回通道；第三，品牌不制造对立话题，不做情绪营销，所有专题企划都经过伦理审核。我们更愿意把影响力用在具体的地方——比如为社区创作者提供免费的剪辑课程，为老年观众提供更大的字幕选项，为第一次投稿的人写一封认真回复的邮件。</p>
+          <p>从行业观察的角度看，情感类视频正在从「流量叙事」回到「关系叙事」。观众不再满足于被刺激，而是希望被理解。「善良的小姨子線上看」系列的每一次更新，都是我们对这个判断的一次验证：当作品足够真诚，观看就会变成陪伴；当平台足够克制，社区就会长出温度。这也是我们作为企业、作为品牌、作为内容生态运营者，愿意长期坚持的方向。</p>
+        </div>
+        <aside class="bf-parse-aside">
+          <h4>系列档案 · 官方数据</h4>
+          <dl>
+            <dt>系列开播</dt><dd>2024 年 9 月</dd>
+            <dt>已更新</dt><dd>12 期正片</dd>
+            <dt>番外短篇</dt><dd>27 部</dd>
+            <dt>平均时长</dt><dd>38 分钟</dd>
+            <dt>最高单集播放</dt><dd>82.4 万</dd>
+            <dt>社区评分</dt><dd>9.2 / 10</dd>
+            <dt>内容语言</dt><dd>普通话 · 繁体中字</dd>
+          </dl>
+          <p class="bf-note">本页数据由品牌内容中心每季度更新一次，用于说明系列运营情况，不构成任何观看承诺。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="bf-section bf-alt bf-anchor" id="bf-specials">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">SERIES · 专题企划</p>
+          <h2>正在进行的 <span>品牌专题</span> 与共创计划</h2>
+        </div>
+        <p class="bf-section-desc">专题不是合集，而是一条有起点和终点的叙事线。每个专题都包含至少三条内容，更新状态公开透明。</p>
+      </div>
+      <div class="bf-special-grid">
+        <article class="bf-special bf-special-lead">
+          <span class="bf-status">更新中 · 第 3 季</span>
+          <h3>「不打扰的善良」家庭叙事专题</h3>
+          <p>围绕「善良的小姨子線上看」系列展开的深度企划，包含正片、幕后、观众来信与伦理讨论四类内容，试图回答一个具体问题：关心一个人，如何不越界。</p>
+          <div class="bf-special-item"><strong>正片 · 一碗汤的距离</strong><span>第 12 期，46 分钟</span></div>
+          <div class="bf-special-item"><strong>幕后 · 删掉的第七场戏</strong><span>分镜与布光讲解</span></div>
+          <div class="bf-special-item"><strong>来信 · 我也曾放错关心</strong><span>社区投稿改编短片</span></div>
+        </article>
+        <article class="bf-special">
+          <span class="bf-status">长期征集中</span>
+          <h3>「真实映像」社区征集</h3>
+          <p>面向所有用户的纪实短片计划，鼓励拍摄自己身边的关系故事，每季度评选一次。</p>
+          <div class="bf-special-item"><strong>本期主题：家里的沉默</strong><span>截止 12 月 20 日</span></div>
+          <div class="bf-special-item"><strong>入选支持：制作基金</strong><span>最高 2 万元</span></div>
+          <div class="bf-special-item"><strong>官方推荐位</strong><span>首页与专题页展示</span></div>
+        </article>
+        <article class="bf-special">
+          <span class="bf-status">已完结 · 可回看</span>
+          <h3>创作者对谈：如何拍好一场沉默</h3>
+          <p>六位影像创作者围绕「少即是多」展开的对谈系列，适合剪辑与摄影爱好者。</p>
+          <div class="bf-special-item"><strong>对谈 01：留白的勇气</strong><span>导演 程叙白</span></div>
+          <div class="bf-special-item"><strong>对谈 02：自然光下的脸</strong><span>摄影 何砚</span></div>
+          <div class="bf-special-item"><strong>对谈 03：声音的第二层</strong><span>声音设计 周迟</span></div>
+        </article>
+        <article class="bf-special">
+          <span class="bf-status">筹备中 · 12 月上线</span>
+          <h3>年度特别企划：年夜饭的十种样子</h3>
+          <p>十个家庭、十张餐桌、十段不必圆满的团圆。现已完成六组拍摄。</p>
+          <div class="bf-special-item"><strong>已拍摄：南方小城三组</strong><span>纪录短片</span></div>
+          <div class="bf-special-item"><strong>已拍摄：北方家庭两组</strong><span>访谈 + 影像</span></div>
+          <div class="bf-special-item"><strong>待招募：海外华人一组</strong><span>可远程投稿</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作者矩阵 -->
+  <section class="bf-section bf-anchor" id="bf-authors">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">CREATORS · 创作者</p>
+          <h2>撑起 <span>禁止的愛</span> 内容生态的创作者</h2>
+        </div>
+        <p class="bf-section-desc">我们与创作者不是简单的签约关系，而是长期协作。以下为部分核心创作者，点击卡片可查看完整简介。</p>
+      </div>
+      <div class="bf-author-grid">
+        <article class="bf-author" data-bf-author="程叙白">
+          <div class="bf-avatar" style="background:#3b4a63">程</div>
+          <div>
+            <h3>程叙白 <span class="bf-role">总导演</span></h3>
+            <p>擅长家庭伦理与克制叙事，习惯用环境声代替配乐。入行九年，拍过广告、纪录片与剧情短片，始终关心「人为什么说不出口」。相信好的镜头应该让观众忘记镜头存在。</p>
+            <div class="bf-stats"><span>作品 <b>64</b></span><span>粉丝 <b>52.8 万</b></span><span>领域 家庭叙事</span></div>
+          </div>
+        </article>
+        <article class="bf-author" data-bf-author="林知夏">
+          <div class="bf-avatar" style="background:#8a6a33">林</div>
+          <div>
+            <h3>林知夏 <span class="bf-role">纪录作者</span></h3>
+            <p>专注日常记录与治愈影像，镜头温和，节奏缓慢。拍过一百多个普通家庭的早晨，认为生活感来自重复而不是奇观。「阳台上的白床单」系列是她的代表作品。</p>
+            <div class="bf-stats"><span>作品 <b>41</b></span><span>粉丝 <b>38.2 万</b></span><span>领域 日常记录</span></div>
+          </div>
+        </article>
+        <article class="bf-author" data-bf-author="许知远舟">
+          <div class="bf-avatar" style="background:#4c6b52">许</div>
+          <div>
+            <h3>许知远舟 <span class="bf-role">编剧 · 访谈</span></h3>
+            <p>长期做人物访谈与剧本围读记录，擅长把复杂情绪拆成可执行的对白。相信「说清楚」是一种专业能力，也是一份对观众的尊重。近年专注家庭题材写作与伦理讨论。</p>
+            <div class="bf-stats"><span>作品 <b>57</b></span><span>粉丝 <b>29.6 万</b></span><span>领域 深度访谈</span></div>
+          </div>
+        </article>
+        <article class="bf-author" data-bf-author="何砚">
+          <div class="bf-avatar" style="background:#5b5445">何</div>
+          <div>
+            <h3>何砚 <span class="bf-role">摄影指导</span></h3>
+            <p>自然光主义者，主张用最少设备完成情绪表达。为「善良的小姨子線上看」设计了全套低照度拍摄方案，并在社区免费分享布光与器材清单，帮助新人创作者降低门槛。</p>
+            <div class="bf-stats"><span>作品 <b>33</b></span><span>粉丝 <b>21.4 万</b></span><span>领域 摄影技术</span></div>
+          </div>
+        </article>
+        <article class="bf-author" data-bf-author="周迟">
+          <div class="bf-avatar" style="background:#7a4a4a">周</div>
+          <div>
+            <h3>周迟 <span class="bf-role">声音设计</span></h3>
+            <p>从广播剧转行影像声音，擅长用环境音构建心理空间。她坚持为每部作品保留完整的字幕与声音说明，让听障观众也能理解情绪层次，是品牌包容理念的重要实践者。</p>
+            <div class="bf-stats"><span>作品 <b>48</b></span><span>粉丝 <b>16.9 万</b></span><span>领域 声音设计</span></div>
+          </div>
+        </article>
+        <article class="bf-author" data-bf-author="苏晚">
+          <div class="bf-avatar" style="background:#6b5a7a">苏</div>
+          <div>
+            <h3>苏晚 <span class="bf-role">社区编辑</span></h3>
+            <p>负责社区投稿与来信整理，每月阅读超过两百封观众来信。她主张「先理解再表达」，在编辑工作中坚持保护投稿者隐私，是社区温度与信任感的重要维护者。</p>
+            <div class="bf-stats"><span>作品 <b>26</b></span><span>粉丝 <b>12.3 万</b></span><span>领域 社区运营</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单 + 用户评价 -->
+  <section class="bf-section bf-alt bf-anchor" id="bf-board">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">RANKING & REVIEWS · 口碑</p>
+          <h2>社区热度榜与 <span>真实评价</span></h2>
+        </div>
+        <p class="bf-section-desc">榜单由播放、收藏、完播率与社区讨论共同计算，每周更新；评价来自真实观看用户，保留原始长度与语气。</p>
+      </div>
+      <div class="bf-board-grid">
+        <div class="bf-board">
+          <h3>本周热度榜</h3>
+          <p class="bf-sub">统计周期 11.16 — 11.22 · 官方发布</p>
+          <ol>
+            <li><div><b>善良的小姨子線上看 · 一碗汤的距离</b><span>播放 82.4 万 · 完播 71%</span></div></li>
+            <li><div><b>雨夜站台：一句没能说出口的抱歉</b><span>播放 31.2 万 · 完播 66%</span></div></li>
+            <li><div><b>阳台上的白床单：一个家的十个清晨</b><span>播放 27.6 万 · 完播 78%</span></div></li>
+            <li><div><b>厨房里的三分钟：被删掉的第七场戏</b><span>播放 24.1 万 · 完播 62%</span></div></li>
+            <li><div><b>编剧室实录：一场争吵戏改了 17 遍</b><span>播放 18.4 万 · 完播 59%</span></div></li>
+            <li><div><b>社区共创：观众投票选出的结局</b><span>播放 10.6 万 · 完播 81%</span></div></li>
+          </ol>
+        </div>
+        <div class="bf-comments">
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#3b4a63">阿</div>
+            <div>
+              <h4>阿岚 <span class="bf-stars">★★★★★</span></h4>
+              <p>看到小姨子把汤放在门口那段，突然想起我妈。有些关心确实不能当面给，给了反而尴尬。这片子没有替谁说话，但把两边都拍到了。</p>
+              <time>2026-11-20</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#8a6a33">沉</div>
+            <div>
+              <h4>沉默的橘子 <span class="bf-stars">★★★★☆</span></h4>
+              <p>画面很好，声音设计尤其厉害，厨房的水声和楼道脚步声几乎就是第三个角色。扣一星是因为我想看更多姐夫视角，希望番外能补。</p>
+              <time>2026-11-19</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#4c6b52">老</div>
+            <div>
+              <h4>老周看电影</h4>
+              <p>追了十二期，这一期最克制。没有反转，没有大哭，但最后那个空椅子镜头停了三秒，我直接暂停去倒了杯水。</p>
+              <time>2026-11-19</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#7a4a4a">南</div>
+            <div>
+              <h4>南方小满</h4>
+              <p>线上看体验不错，字幕可以调大，对我爸这种老花眼很友好。就是希望片尾名单能再慢一点，我还没来得及看完就被下一集挡住了。</p>
+              <time>2026-11-18</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#5b5445">一</div>
+            <div>
+              <h4>一只猫的午后</h4>
+              <p>作为摄影爱好者，我专门回看了三遍布光。自然光的窗边层次做得很细，而且官方真的把器材清单放出来了，这点值得夸。</p>
+              <time>2026-11-17</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#6b5a7a">小</div>
+            <div>
+              <h4>小姨子本姨</h4>
+              <p>一开始看到标题有点担心是那种消费身份的片子，看完发现完全不是。它拍的是分寸感，而且演员演得很干净，没有多余的表演。</p>
+              <time>2026-11-16</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#3b4a63">留</div>
+            <div>
+              <h4>留言板管理员</h4>
+              <p>建议做个专题把十二期串起来看，我第一次看的时候是乱序的，补完时间线之后对很多细节的理解完全不一样了。</p>
+              <time>2026-11-15</time>
+            </div>
+          </article>
+          <article class="bf-comment">
+            <div class="bf-avatar" style="background:#8a6a33">小</div>
+            <div>
+              <h4>小城故事多</h4>
+              <p>投稿被选中改编那次，编辑给我写了很长一封邮件，问我要不要用化名。这种认真让我愿意继续留在这个社区。</p>
+              <time>2026-11-14</time>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + 合作 + FAQ -->
+  <section class="bf-section bf-anchor" id="bf-updates">
+    <div class="bf-wrap">
+      <div class="bf-section-head">
+        <div>
+          <p class="bf-kicker">NEWS & SUPPORT · 动态与帮助</p>
+          <h2><span>企业动态</span>、合作伙伴与常见问题</h2>
+        </div>
+        <p class="bf-section-desc">品牌资讯与内容更新按月归档，合作与帮助信息长期有效。如需进一步沟通，可通过页面底部联系方式与我们联系。</p>
+      </div>
+      <div class="bf-info-grid">
+        <div>
+          <h3 style="font-size:18px;color:var(--bf-navy);margin-bottom:18px">近期企业动态</h3>
+          <div class="bf-timeline">
+            <div class="bf-tl-item">
+              <time>2026-11-21</time>
+              <h4>第 12 期导演剪辑版上线</h4>
+              <p>新增 6 段人物访谈与 14 分钟拍摄手记，全部内容已通过内容审核，可在影像专区回看。</p>
+            </div>
+            <div class="bf-tl-item">
+              <time>2026-11-14</time>
+              <h4>「真实映像」征集开启报名</h4>
+              <p>本季主题为「家里的沉默」，面向所有注册用户开放，投稿通道持续至 12 月 20 日。</p>
+            </div>
+            <div class="bf-tl-item">
+              <time>2026-11-06</time>
+              <h4>品牌内容伦理准则更新</h4>
+              <p>新增真实人物授权与隐私保护条款，进一步明确投稿撤回流程与编辑审核责任。</p>
+            </div>
+            <div class="bf-tl-item">
+              <time>2026-10-28</time>
+              <h4>无障碍字幕功能全站上线</h4>
+              <p>支持字号调节与声音说明开关，覆盖全部原创作品，听障与老年用户可自行设置。</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 style="font-size:18px;color:var(--bf-navy);margin-bottom:18px">合作品牌与伙伴</h3>
+          <div class="bf-partners">
+            <div class="bf-partner">晨光书房<small>空间支持</small></div>
+            <div class="bf-partner">南岸影像社<small>器材合作</small></div>
+            <div class="bf-partner">慢煮咖啡<small>场景合作</small></div>
+            <div class="bf-partner">城市图书馆<small>展映合作</small></div>
+            <div class="bf-partner">青禾公益<small>公益伙伴</small></div>
+            <div class="bf-partner">无声电台<small>声音合作</small></div>
+          </div>
+          <div class="bf-submit" style="margin-top:28px;padding:28px">
+            <div>
+              <h2 style="font-size:20px;margin-bottom:6px">想让你的作品被看见？</h2>
+              <p>提交作品简介与成片链接，编辑会在 7 个工作日内回复。原创优先，正版优先。</p>
+            </div>
+            <button class="bf-btn bf-btn-gold" type="button" id="bfOpenSubmit">立即投稿</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bf-faq bf-anchor" id="bf-faq">
+        <h3 style="font-size:18px;color:var(--bf-navy);margin-bottom:16px">常见问题</h3>
+        <details>
+          <summary>「善良的小姨子線上看」系列多久更新一次？</summary>
+          <p>正片通常每两周更新一期，番外与访谈不定期上线。所有更新会在页面顶部公告条与「企业动态」中同步发布，建议收藏本页或开启更新提醒。</p>
+        </details>
+        <details>
+          <summary>观看需要付费吗？内容是否为正版？</summary>
+          <p>本系列基础内容可免费观看，全部为品牌原创或已获正式授权，页面标注主创与来源信息。部分特别企划与幕后内容可能需要注册账号，具体情况以页面提示为准。</p>
+        </details>
+        <details>
+          <summary>我投稿的故事会被公开吗？可以匿名吗？</summary>
+          <p>投稿默认不公开，编辑会先与你沟通用途与范围。涉及真实家庭与个人隐私的内容，我们支持化名、变声与片段模糊处理，你也可以随时申请撤回。</p>
+        </details>
+        <details>
+          <summary>如何参与「真实映像」征集？</summary>
+          <p>在投稿入口提交作品简介、时长与成片链接即可。题材需与家庭、关系或日常记录相关，成片不低于 3 分钟。入选作品将获得制作基金与官方推荐位。</p>
+        </details>
+        <details>
+          <summary>字幕可以调大吗？有声音说明吗？</summary>
+          <p>可以。播放器设置中提供三档字幕字号，并支持开启声音说明。该功能覆盖全部原创作品，是我们无障碍支持的一部分。</p>
+        </details>
+        <details>
+          <summary>为什么页面强调「克制」与「不打扰」？</summary>
+          <p>因为家庭题材最容易越界。我们希望通过影像讨论分寸感，而不是制造对立。所有专题企划都经过伦理审核，这也是品牌持续运营的基础。</p>
+        </details>
+        <details>
+          <summary>可以申请品牌合作或线下展映吗？</summary>
+          <p>可以。请在提交时选择「合作咨询」，附上机构名称、用途与时间安排。我们优先考虑与公益、社区文化及影像教育相关的合作。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 投稿条 -->
+  <section class="bf-section" id="bf-submit-zone" style="padding-top:0">
+    <div class="bf-wrap">
+      <div class="bf-submit">
+        <div>
+          <h2>让真实的关系，被认真拍下来</h2>
+          <p>「禁止的愛」官方网站长期开放投稿与共创。无论你是导演、摄影、编剧，还是只想讲一个家里的故事，我们都愿意先听你说完。</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="bf-btn bf-btn-gold" type="button" id="bfSubmitBtn2">投稿入口</button>
+          <button class="bf-btn bf-btn-ghost" type="button" id="bfShareBtn2" style="background:transparent;color:#e9e4d8;border-color:#4a4d5e">分享页面</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="bf-footer">
+  <div class="bf-wrap">
+    <div class="bf-footer-grid">
+      <div>
+        <div class="bf-footer-brand">
+          <svg class="bf-brand-mark" viewBox="0 0 64 64" aria-label="禁止的愛 页脚品牌标识">
+            <rect width="64" height="64" rx="14" fill="#262a3d"/>
+            <circle cx="32" cy="32" r="16" fill="none" stroke="#e6b980" stroke-width="3"/>
+            <path d="M27 24l16 8-16 8z" fill="#e6b980"/>
+          </svg>
+          <span class="bf-brand-name">禁止的愛<small>OFFICIAL VIDEO</small></span>
+        </div>
+        <p>禁止的愛 官方网站 · 专注家庭与情感题材的原创视频品牌。我们坚持原创正版、高清品质与克制的表达方式，致力于为创作者与观众搭建值得信赖的内容生态。持续运营，长期陪伴。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a class="bf-anchor" href="#bf-focus">本周焦点</a></li>
+          <li><a class="bf-anchor" href="#bf-videos">影像专区</a></li>
+          <li><a class="bf-anchor" href="#bf-specials">专题企划</a></li>
+          <li><a class="bf-anchor" href="#bf-authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌与帮助</h4>
+        <ul>
+          <li><a class="bf-anchor" href="#bf-parse">品牌深度解析</a></li>
+          <li><a class="bf-anchor" href="#bf-board">社区口碑</a></li>
+          <li><a class="bf-anchor" href="#bf-updates">企业动态</a></li>
+          <li><a class="bf-anchor" href="#bf-faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与合作</h4>
+        <ul>
+          <li>内容合作：brand@jinzhideai.example</li>
+          <li>投稿咨询：submit@jinzhideai.example</li>
+          <li>媒体联络：press@jinzhideai.example</li>
+          <li>工作时间：周一至周五 10:00 – 18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bf-footer-bottom">
+      <span>© 2026 禁止的愛 官方网站 版权所有 · 持续运营中 · 备案号：影备 2026-0112 号</span>
+      <span>原创正版 · 高清品质 · 用户至上 · <a href="#bf-top">回到顶部</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- 弹窗 -->
+<div class="bf-modal-mask" id="bfModalMask" role="dialog" aria-modal="true" aria-labelledby="bfModalTitle">
+  <div class="bf-modal">
+    <div class="bf-modal-inner">
+      <button class="bf-close-x" type="button" id="bfModalClose" aria-label="关闭弹窗">×</button>
+      <h3 id="bfModalTitle">投稿入口</h3>
+      <p id="bfModalDesc">填写基本信息即可提交。编辑会在 7 个工作日内回复，请确保联系方式可用。</p>
+      <form id="bfSubmitForm">
+        <div class="bf-field">
+          <label for="bfFieldName">称呼</label>
+          <input id="bfFieldName" type="text" placeholder="例如：林知夏" required>
+        </div>
+        <div class="bf-field">
+          <label for="bfFieldContact">联系方式</label>
+          <input id="bfFieldContact" type="text" placeholder="邮箱或常用社交账号" required>
+        </div>
+        <div class="bf-field">
+          <label for="bfFieldMsg">作品简介</label>
+          <textarea id="bfFieldMsg" rows="3" placeholder="题材、时长、是否已取得授权" required></textarea>
+        </div>
+        <div class="bf-modal-actions">
+          <button class="bf-btn bf-btn-ghost" type="button" id="bfModalCancel">取消</button>
+          <button class="bf-btn bf-btn-primary" type="submit">提交</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="bf-toast" id="bfToast" role="status" aria-live="polite"></div>
+<button class="bf-top" id="bfTopBtn" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('bfToast');
+  var toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('bf-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('bf-show'); }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById('bfBurger');
+  var mobileNav = document.getElementById('bfMobileNav');
+  if(burger && mobileNav){
+    burger.addEventListener('click', function(){
+      var open = mobileNav.classList.toggle('bf-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    mobileNav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        mobileNav.classList.remove('bf-open');
+        burger.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('bfSearchInput');
+  var searchBtn = document.getElementById('bfSearchBtn');
+  var feedback = document.createElement('div');
+  feedback.className = 'bf-search-feedback';
+  if(searchInput && searchInput.parentNode && searchInput.parentNode.parentNode){
+    searchInput.parentNode.parentNode.appendChild(feedback);
+  }
+  function doSearch(){
+    if(!searchInput) return;
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      feedback.textContent = '请输入作品名或创作者昵称';
+      feedback.classList.add('bf-on');
+      return;
+    }
+    var hits = [];
+    document.querySelectorAll('.bf-video-card h3, .bf-side-item h4, .bf-author h3, .bf-special h3').forEach(function(el){
+      if(el.textContent.indexOf(kw) > -1){ hits.push(el.textContent.trim()); }
+    });
+    if(hits.length){
+      feedback.textContent = '找到 ' + hits.length + ' 条相关内容：' + hits.slice(0,2).join(' / ');
+      feedback.classList.add('bf-on');
+      toast('已为你定位相关内容');
+    }else{
+      feedback.textContent = '暂未找到「' + kw + '」，可试试系列名或创作者昵称';
+      feedback.classList.add('bf-on');
+      toast('没有匹配结果');
+    }
+  }
+  if(searchBtn){ searchBtn.addEventListener('click', doSearch); }
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
+    searchInput.addEventListener('input', function(){
+      if(!searchInput.value){ feedback.classList.remove('bf-on'); }
+    });
+  }
+
+  /* 点赞 +1/-1 */
+  document.querySelectorAll('.bf-like').forEach(function(btn){
+    var countEl = btn.querySelector('span');
+    var base = parseInt(btn.getAttribute('data-bf-count'), 10) || 0;
+    var liked = false;
+    btn.addEventListener('click', function(){
+      liked = !liked;
+      var now = liked ? base + 1 : base;
+      if(countEl) countEl.textContent = now;
+      btn.classList.toggle('bf-liked', liked);
+    });
+  });
+
+  /* 收藏切换 */
+  document.querySelectorAll('.bf-save').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('bf-saved');
+      btn.textContent = on ? '♥ 已收藏' : '♧ 收藏';
+      toast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 分享 / 复制链接 */
+  function copyLink(){
+    var url = window.location.href;
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){
+        toast('链接已复制，可分享给朋友');
+      }).catch(function(){
+        toast('分享链接：' + url);
+      });
+    }else{
+      toast('分享链接：' + url);
+    }
+  }
+  document.querySelectorAll('.bf-share').forEach(function(btn){
+    btn.addEventListener('click', copyLink);
+  });
+  var heroShare = document.getElementById('bfHeroShare');
+  if(heroShare){ heroShare.addEventListener('click', copyLink); }
+  var shareBtn2 = document.getElementById('bfShareBtn2');
+  if(shareBtn2){ shareBtn2.addEventListener('click', copyLink); }
+
+  /* 弹窗：投稿 / 反馈 / 作者信息 */
+  var mask = document.getElementById('bfModalMask');
+  var modalTitle = document.getElementById('bfModalTitle');
+  var modalDesc = document.getElementById('bfModalDesc');
+  var submitForm = document.getElementById('bfSubmitForm');
+  var modalClose = document.getElementById('bfModalClose');
+  var modalCancel = document.getElementById('bfModalCancel');
+
+  function openModal(title, desc, showForm){
+    if(!mask) return;
+    modalTitle.textContent = title;
+    modalDesc.textContent = desc;
+    submitForm.style.display = showForm ? 'block' : 'none';
+    mask.classList.add('bf-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    if(!mask) return;
+    mask.classList.remove('bf-open');
+    document.body.style.overflow = '';
+  }
+  if(modalClose){ modalClose.addEventListener('click', closeModal); }
+  if(modalCancel){ modalCancel.addEventListener('click', closeModal); }
+  if(mask){
+    mask.addEventListener('click', function(e){ if(e.target === mask){ closeModal(); } });
+  }
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closeModal(); } });
+
+  var openSubmitBtns = [document.getElementById('bfOpenSubmit'), document.getElementById('bfSubmitBtn2'), document.getElementById('bfHeroSubmit')];
+  openSubmitBtns.forEach(function(btn){
+    if(btn){
+      btn.addEventListener('click', function(){
+        openModal('投稿入口', '填写基本信息即可提交。编辑会在 7 个工作日内回复，请确保联系方式可用。', true);
+      });
+    }
+  });
+
+  if(submitForm){
+    submitForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      closeModal();
+      submitForm.reset();
+      toast('投稿已提交，感谢你的信任');
+    });
+  }
+
+  document.querySelectorAll('.bf-report').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal('内容反馈', '如发现内容标注错误、授权疑问或其他问题，请通过页脚邮箱与我们联系，我们会在 3 个工作日内核查。', false);
+    });
+  });
+
+  document.querySelectorAll('.bf-author').forEach(function(card){
+    card.addEventListener('click', function(){
+      var name = card.getAttribute('data-bf-author') || '创作者';
+      var desc = card.querySelector('p') ? card.querySelector('p').textContent : '';
+      openModal(name + ' · 创作者档案', desc, false);
+    });
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('bfTopBtn');
+  window.addEventListener('scroll', function(){
+    if(!topBtn) return;
+    if(window.scrollY > 520){ topBtn.classList.add('bf-show'); }
+    else{ topBtn.classList.remove('bf-show'); }
+  });
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* 数据数字滚动 */
+  var counters = document.querySelectorAll('[data-bf-count]');
+  var counted = false;
+  function animateCounters(){
+    if(counted) return;
+    counted = true;
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-bf-count'), 10);
+      if(isNaN(target)) return;
+      var start = 0, dur = 900, t0 = null;
+      function step(ts){
+        if(!t0) t0 = ts;
+        var p = Math.min((ts - t0) / dur, 1);
+        var val = Math.floor(start + (target - start) * (1 - Math.pow(1 - p, 3)));
+        el.textContent = val;
+        if(p < 1){ requestAnimationFrame(step); } else { el.textContent = target; }
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ animateCounters(); io.disconnect(); } });
+    }, { threshold: .3 });
+    var heroStats = document.querySelector('.bf-hero-stats');
+    if(heroStats){ io.observe(heroStats); }
+  }else{
+    animateCounters();
+  }
+})();
+</script>
+</body>
+          </html>
